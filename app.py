@@ -73,7 +73,7 @@ Requirements:
 """
 
                 response = client.chat.completions.create(
-                    model="meta-llama/Llama-3.2-1B-Instruct",
+                    model="meta-llama/Llama-3.1-8B-Instruct",
                     messages=[
                         {
                             "role": "user",
